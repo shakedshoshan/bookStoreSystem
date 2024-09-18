@@ -3,7 +3,8 @@
 
 This MERN stack application is a self-education project, that allows you to manage your book collection. You can add, delete, update, and view information about your favorite books.
 
-![image](https://github.com/shakedshoshan/bookStore/assets/121875226/89ad948f-f54f-4ed7-9feb-67fc301d2a31)
+![image](https://github.com/user-attachments/assets/040be16f-891f-4edb-a13c-b459d3482a22)
+
 
 ## Features
 Add Books: Effortlessly add new books to your collection by providing details like title, author and publication date.
