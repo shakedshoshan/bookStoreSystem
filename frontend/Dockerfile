@@ -1,15 +1,32 @@
+# FROM node:18-alpine
+
+# WORKDIR /src
+
+# COPY package*.json ./
+
+# RUN npm install
+
+# COPY . .
+
+# RUN npm run build
+
+# EXPOSE 4173
+
+# CMD ["npm", "run", "start"]
+
+
 FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package.json .
 
 RUN npm install
 
 COPY . .
 
-RUN npm run build
+EXPOSE 8080
 
-EXPOSE 5173
+CMD [ "npm", "run", "dev" ]
 
-CMD ["npm", "run", "start"]
+
